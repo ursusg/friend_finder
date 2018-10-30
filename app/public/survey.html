@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Top Jumbotron with title -->
+    <div class="container">
+        <div class="jumbotron">
+            <div style="text-align: center;">
+                <h1>FriendFinder Survey</h1>
+                <hr>
+                <h3>Fill out the survey with the intent of being honest, you liar.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label for="name">
+                        <h2>Name</h2>
+                    </label>
+                    <input type="text" class="form-control form-control-lg" id="name" placeholder="(Required)">
+                </div>
+
+                <div class="form-group">
+                    <label for="img">
+                        <h2>Link to your image</h2>
+                    </label>
+                    <input type='url' class="form-control form-control-lg" id="img" placeholder="(Required)">
+                </div>
+        </div>
+
+        <!-- Dropdown menu and Questions -->
+        <div class="row">
+            <h2>Question 1</h2>
+        </div>
+        <div class="row">
+            <p>You often find yourself being indecisive.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q1"></label>
+                <select class="form-control" id="q1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 2</h2>
+        </div>
+        <div class="row">
+            <p>You feel confident around new people.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q2"></label>
+                <select class="form-control" id="q2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 3</h2>
+        </div>
+        <div class="row">
+            <p>You are quick to help others, regardless of their situation.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q3"></label>
+                <select class="form-control" id="q3">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 4</h2>
+        </div>
+        <div class="row">
+            <p>You would rather be unnoticed than be the center of attention.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q4"></label>
+                <select class="form-control" id="q4">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <h2>Question 5</h2>
+        </div>
+        <div class="row">
+            <p>You ask others what their Astrological sign is</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q5"></label>
+                <select class="form-control" id="q5">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 6</h2>
+        </div>
+        <div class="row">
+            <p>You often find yourself talking about humanitarian efforts.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q6"></label>
+                <select class="form-control" id="q6">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 7</h2>
+        </div>
+        <div class="row">
+            <p>You are independent in most matters.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q7"></label>
+                <select class="form-control" id="q7">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 8</h2>
+        </div>
+        <div class="row">
+            <p>You scramble to look for lost items when leaving the house.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q8"></label>
+                <select class="form-control" id="q8">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 9</h2>
+        </div>
+        <div class="row">
+            <p>You begin the day with a routine.</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q9"></label>
+                <select class="form-control" id="q9">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Question 10</h2>
+        </div>
+        <div class="row">
+            <p>You answered this as honestly as possible</p>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label for="q10"></label>
+                <select class="form-control" id="q10">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Button trigger modal -->
+        <button type="submit" class="btn btn-primary btn-lg col" data-toggle="modal" data-target="#exampleModal" id="finishbtn">
+            Find your new Best Friend
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Your New Best Friend!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="body-bff">
+                        (new friend goes here)
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p><a href="/api/friends"> API Friend Link</a> | <a href="https://github.com/ursusg/friend_finder">Github
+                    Repo</a></p>
+        </div>
+    </footer>
+</body>
+
+<!-- Runs an AJAX call and adds the total score then compares it -->
+<script type="text/javascript">
+
+    var totalScore;
+
+    // Event handler for submit button
+    $("#finishbtn").on("click", (event) => {
+        event.preventDefault();
+        
+        var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("img").val(),
+            scores: [
+                parseInt($("#q1").val()),
+                parseInt($("#q2").val()),
+                parseInt($("#q3").val()),
+                parseInt($("#q4").val()),
+                parseInt($("#q5").val()),
+                parseInt($("#q6").val()),
+                parseInt($("#q7").val()),
+                parseInt($("#q8").val()),
+                parseInt($("#q9").val()),
+                parseInt($("#q10").val())
+            ]
+        };
+
+        // Grabs the totalScore of the newest Friend
+        var totalScore = newFriend.scores.reduce((accumulator, currentValue) => {
+            return accumulator + currentValue;
+        })
+
+        // console.log(newFriend.scores.reduce((accumulator, currentValue) => {
+        //     return accumulator + currentValue;
+        // }));
+        
+        // Posts the newstFriend
+        $.post("/api/friends", newFriend)
+            .then(function (data) {
+                console.log(`Adding friend ${newFriend.name} and total score is: ${totalScore}`)
+                return totalScore
+            });
+
+        // Function to find best friend
+        function findBestFriend(arrayOfFriends) {
+            
+            // forEach loop to parse their scores
+            arrayOfFriends.forEach(friend => {
+
+                // holds their parsed scores
+                let parsedScores = [];
+                
+                // parses each indvidual score from a friend's scores array
+                friend.scores.forEach(score => {
+                    parsedScores.push(parseInt(score))
+                })
+                
+                // adds the new parsed scores together
+                var bffTotalScore = parsedScores.reduce((accumulator, currentValue) => {
+                    return accumulator + currentValue;
+                })
+                
+                // gives each friend's name and total score number
+                console.log(`${friend.name} has a score of ${bffTotalScore}`)
+                
+                // returns the totalScore back to the findBestFriend function
+                return {bffTotalScore, friend}
+                
+            })
+        };
+
+        $.get("/api/friends", function (allFriends) {
+            var bff = findBestFriend(allFriends);
+            
+            if (bff.bffTotalScore = totalScore) {
+                $("#body-bff").append(bff.friend);
+            } else {
+                console.log("No match")
+            }
+        })
+
+    });
+</script>
+
+</html>
